@@ -18,6 +18,9 @@
 	last = log -1 HEAD
 	alias = config --get-regexp alias
 	tree = ls-tree -r --full-tree HEAD
+    unchanged = update-index --assume-unchanged
+    changed = update-index --no-assume-unchanged
+    ls = git ls-files -v
 [core]
 	excludesfile = ~/.gitignore_global
 	pager = less -S
