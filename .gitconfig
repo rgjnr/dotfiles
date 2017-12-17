@@ -20,7 +20,7 @@
 	tree = ls-tree -r --full-tree HEAD
     unchanged = update-index --assume-unchanged
     changed = update-index --no-assume-unchanged
-    ls = git ls-files -v
+    ls = ls-files -v
 [core]
 	excludesfile = ~/.gitignore_global
 	pager = less -S
