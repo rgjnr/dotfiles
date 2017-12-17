@@ -1,6 +1,5 @@
-[user]
-	name = rgjnr
-	email = mail@rgjr.me
+[include]
+    path = .gitconfig-priv
 [merge]
 	tool = vimdiff
 [color]
