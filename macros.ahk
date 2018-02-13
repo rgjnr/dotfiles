@@ -7,3 +7,7 @@ RAlt & t::
 FormatTime, TimeString,, %A_now%
 SendInput, %TimeString%
 Return
+
+RAlt & c::
+SendInput {U+2713}
+Return
